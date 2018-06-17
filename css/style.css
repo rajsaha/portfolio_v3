@@ -64,8 +64,7 @@ body {
 
 ._card {
   width: 85%;
-  height: 500px;
-  max-height: 500px;
+  height: inherit;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -126,8 +125,8 @@ body {
   letter-spacing: 0.3em;
   padding: 150px 30px;
   overflow: hidden;
-  background-image: url(../images/tetris.svg);
-  background-size: 900px;
+  background-image: url(../images/earth.svg);
+  background-size: 500px;
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -315,15 +314,31 @@ body {
   letter-spacing: 0.3em;
   padding: 100px 30px;
   overflow: hidden;
-  background-image: url(../images/circles.svg);
-  background-size: 500px;
-  background-position: bottom;
+  background-image: url(../images/mountainsv3.svg);
+  background-size: 1000px;
   background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.section-contact>.social-icons {
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-contact>.social-icons>span {
+  cursor: pointer;
+}
+
+.section-contact h2 {
+  text-transform: uppercase;
 }
 
 .scroll-icon {
   margin: auto;
-  padding: 25px;
+  padding: 10px;
 }
 
 #scroll-button {
@@ -335,12 +350,14 @@ body {
   animation: swipe_up_animation 0.5s;
   animation-fill-mode: forwards;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  z-index: 1000;
 }
 
 .swipe_down {
   animation: swipe_down_animation 0.5s;
   animation-fill-mode: forwards;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  z-index: 1000;
 }
 
 @keyframes swipe_up_animation {
@@ -397,6 +414,102 @@ body {
 
     100% {
       bottom:-1200px;
+      width:100%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section-whoiam {
+    background-size: 800px;
+  }
+
+  .section-whoiam p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1em;
+  }
+
+  .section-skillset {
+    background-size: 1000px;
+  }
+
+  .section-skillset h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .section-skillset p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .section-projects p {
+    padding: 10%;
+  }
+
+  .section-projects img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+  }
+
+  .section-contact p {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-intro {
+    background-size: 800px;
+  }
+
+  .section-skillset {
+    background-size: 1200px;
+  }
+
+  .section-projects p {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .section-projects img {
+    width: 500px;
+  }
+}
+
+@media (min-height: 768px) {
+  .deck {
+    height: 600px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .deck {
+    height: 800px;
+  }
+
+  @keyframes swipe_up_animation {
+    0% {
+      bottom:-1500px;
+      width:100%;
+    }
+
+    100% {
+      bottom:0px;
+      width:85%;
+    }
+  }
+
+  @keyframes swipe_down_animation {
+    0% {
+      bottom:0px;
+      width:85%;
+    }
+
+    100% {
+      bottom:-1500px;
       width:100%;
     }
   }

@@ -16,7 +16,7 @@
    viewBox="0 0 1201.3793 353.89298"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="circles.svg">
   <defs
      id="defs4">
@@ -137,20 +137,20 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4212"
        id="linearGradient4186-3-3"
-       x1="88.306274"
-       y1="284.79138"
-       x2="123.69657"
-       y2="445.82233"
+       x1="185.07437"
+       y1="356.47144"
+       x2="19.043667"
+       y2="159.81883"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.93421053,0,0,0.93421053,-933.68786,-110.11231)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4180"
        id="linearGradient4186-2"
-       x1="-5.7143455"
-       y1="205.32156"
-       x2="95.714241"
-       y2="333.89304"
+       x1="36.78381"
+       y1="244.67171"
+       x2="90.467552"
+       y2="313.43097"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.2763158,0,0,1.2763158,-1139.1389,-249.41403)" />
     <linearGradient
@@ -173,26 +173,28 @@
        y2="375.30685"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.44736841,0,0,0.44736841,345.1353,-30.886183)" />
-    <linearGradient
+    <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4332"
-       id="linearGradient4340"
-       x1="-494.28568"
-       y1="398.17871"
-       x2="-424.28571"
-       y2="266.75012"
+       id="radialGradient853"
+       cx="-540.28564"
+       cy="191.60727"
+       fx="-540.28564"
+       fy="191.60727"
+       r="78.571426"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-76,-118)" />
-    <linearGradient
+       gradientTransform="matrix(-0.12303476,-0.78195335,1.7321946,-0.27254843,-938.66064,-178.64864)" />
+    <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4212"
-       id="linearGradient4186-3-3-2"
-       x1="88.306274"
-       y1="284.79138"
-       x2="123.69657"
-       y2="445.82233"
+       id="radialGradient855"
+       cx="-690.28564"
+       cy="231.60727"
+       fx="-690.28564"
+       fy="231.60727"
+       r="92.857147"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.85526317,0,0,0.85526317,-757.48487,-38.075627)" />
+       gradientTransform="matrix(0.60072404,-1.6465356,1.3362136,0.48750576,-585.09126,-1017.8826)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -201,16 +203,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="529.09873"
-     inkscape:cy="158.50919"
+     inkscape:zoom="1.4"
+     inkscape:cx="615.16478"
+     inkscape:cy="197.16399"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
-     inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -224,7 +226,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -278,14 +280,14 @@
        cy="110.17871"
        r="48.571426" />
     <circle
-       style="display:inline;opacity:1;fill:url(#linearGradient4340);fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:url(#radialGradient853);fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4178-5-7-9"
        cx="-540.28564"
        cy="191.60727"
        r="78.571426"
        transform="scale(-1,1)" />
     <circle
-       style="display:inline;opacity:1;fill:url(#linearGradient4186-3-3-2);fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:url(#radialGradient855);fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4178-5-7-3"
        cx="-690.28564"
        cy="231.60727"
