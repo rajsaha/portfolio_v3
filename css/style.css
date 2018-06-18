@@ -221,6 +221,12 @@ body {
   z-index: 100;
 }
 
+.section-whoiam>div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .section-skillset {
   opacity:0;
   background: #2D2D2D;
@@ -244,6 +250,12 @@ body {
 
 .section-skillset p {
   text-transform: lowercase;
+}
+
+.section-skillset>div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .section-projects {
@@ -320,20 +332,43 @@ body {
   background-position: bottom;
 }
 
+.debug {
+  border: 1px solid white;
+}
+
 .section-contact>.social-icons {
   font-size: 3em;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .section-contact>.social-icons>span {
   cursor: pointer;
+  padding-bottom: 25px;
 }
 
 .section-contact h2 {
   text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.section-contact h3 {
+  font-weight: 300;
+  font-size: 0.3em;
+}
+
+.social-icons>.email-address {
+  background-color: white;
+  border-radius: 3px;
+  width: 250px;
+  color: black;
+}
+
+.social-icons>.email-address>span:nth-of-type(2) {
+  font-size: 0.1em;
 }
 
 .scroll-icon {
