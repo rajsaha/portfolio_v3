@@ -86,6 +86,14 @@ body {
   text-align: center;
 }
 
+.section-intro>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 .section-intro h1 {
   font-weight: 500;
   font-size: 2em;
@@ -279,7 +287,7 @@ body {
 
 .section-projects .flag {
   width: 25px;
-  height: 80px;
+  height: 90px;
   background-color: #FFD700;
   position: absolute;
   top:0;
@@ -288,15 +296,23 @@ body {
   border-bottom-right-radius: 3px;
 }
 
-.section-projects .flag>span {
+.section-projects .flag>a {
+  text-decoration: none;
+}
+
+.section-projects .flag>a {
   position: absolute;
-  top:28px;
-  right:-26px;
+  top:34px;
+  right:-29px;
   text-transform: uppercase;
   color: black;
   -webkit-transform: rotate(-90deg);
    -moz-transform: rotate(-90deg);
   font-size: 0.7em;
+}
+
+.section-projects .flag>a>span>i {
+  display: inline;
 }
 
 #everest {
