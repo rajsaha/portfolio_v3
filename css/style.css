@@ -8,7 +8,7 @@ body {
   linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px);
   background-size:15px 15px, 15px 15px, 10px 10px, 10px 10px;
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Code', sans-serif;
 }
 
 .navigation {
@@ -52,7 +52,7 @@ body {
 
 .deck {
   position: relative;
-  height:500px;
+  height:80vh;
 }
 
 .deck>._card{
@@ -437,12 +437,12 @@ body {
 
 @media (max-width: 360px) {
   .deck {
-    height: 400px;
+    height: 80vh;
   }
 
   ._card {
     width: 90%;
-    height: 400px;
+    height: 100%;
   }
 
   @keyframes swipe_up_animation {
